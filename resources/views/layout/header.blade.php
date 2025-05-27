@@ -1,4 +1,4 @@
- <!--[if lt IE 8]>
+<!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
@@ -7,36 +7,10 @@
         <header class="header-area home-2 sd-bar">
 			<div class="logo-2">
                 <div class="logo-2-wrap">
-                    <a href="index.html"><img src="img/logo/Logo1.png" alt=""></a>
+                    <a href="{{route('home')}}"><img src="img/logo/Logo1.png" alt=""></a>
                 </div>
 			</div>
-            {{-- <div class="header-top">
-                <div class="row m-0">
-                    <div class="col-lg-6 col-md-5">
-                        <div class="top-text">
-                            <div class="textwidget">Welcome To Our Store!</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-7 sd-bar1">
-                        <div class="widget">
-                            <ul>
-                                <li>
-                                    <a href="#">My Account</a>
-                                </li>
-                                <li>
-                                    <a href="#">Wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="#">Check Out</a>
-                                </li>
-                                <li>
-                                    <a class="tb-login" href="#">Login</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
+            
             <div class="header-menu header-menu-2">
                 <div class="header-wrapper">
                     <div class="logo-stiky">
@@ -61,10 +35,26 @@
                                 
                                             </div>
                                         </div>
-                                    </li>
-                                    <li><a href="blog.html">Actualités </a></li>
+                                    </li>                                    <li><a href="blog.html">Actualités </a></li>
                                    <li><a href="contact.html">Contact</a></li> 
+
+                                   @auth
+                                
+                                <li>
+                                    <a href="{{ route('articles.index') }}" style="background-color: #ffffff; color: #840444; padding: 0px 3px; border-radius: 3px; font-size: 0.9em; border: 1px solid #840444;">
+                                        <i class="fa fa-pencil" style="margin-right: 2px;"></i>Gérer Articles
+                                    </a>
+                                </li>
+                                <li>
+                                    <form method="POST" action="{{ route('logout') }}" style="display:inline;">
+                                        @csrf
+                                        <a href="#" onclick="event.preventDefault(); this.closest('form').submit();">Déconnexion</a>
+                                    </form>
+                                </li>
+                                
+                                @endauth
                                 </ul>
+                                
                             </nav>
                         </div>
                         <div class="menu-sidebar-container">
@@ -246,11 +236,27 @@
                                             <a href="blog-details.html">Foulards</a>
                                            
                                         </li>
-                                    </ul>
-                                </li>
+                                    </ul>                                </li>
                                 
                                 <li><a href="blog.html">Actualités</a></li>
                                 <li><a href="contact.html">Contact</a></li>
+                                
+                                @auth
+                                <li>
+                                    <a href="{{ route('articles.index') }}">
+                                        <i class="fa fa-pencil" style="margin-right: 2px;"></i>Gérer Articles
+                                    </a>
+                                </li>
+                                <li>
+                                    <form method="POST" action="{{ route('logout') }}" style="display:inline;">
+                                        @csrf
+                                        <a href="#" onclick="event.preventDefault(); this.closest('form').submit();">Déconnexion</a>
+                                    </form>
+                                </li>
+                                @else
+                                <li><a href="{{ route('login') }}">Connexion</a></li>
+                                <li><a href="{{ route('register') }}">Inscription</a></li>
+                                @endauth
                             </ul>
                         </nav>
                     </div>
@@ -259,4 +265,4 @@
                 </div>
 			</div>
         </header>
-        <!-- mobile-menu-area end --> 
+        <!-- mobile-menu-area end -->

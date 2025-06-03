@@ -33,45 +33,26 @@
         <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
         <!-- style css -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-        <!-- Articles management css -->        <link rel="stylesheet" href="{{ asset('css/articles.css') }}">        <!-- modernizr css -->        <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
-        <!-- TinyMCE CDN -->
-        <script src="https://cdn.tiny.cloud/1/p0rlpscsaf765bwpo18hi3jlt37lkujdrf0ywf0haodnmzst/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-        <!-- CSS personnalisé pour TinyMCE -->
-        <style>
-            .tox-tinymce {
-                border: 1px solid #ced4da !important;
-            }
-            /* Fix pour les boîtes de dialogue de TinyMCE */
-            .tox {
-                z-index: 1000;
-            }
-        </style>
+        <!-- responsive css -->        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">        <!-- Articles management css -->
+        <link rel="stylesheet" href="{{ asset('css/articles.css') }}">
+         <!-- Custom logo styles -->
+        <link rel="stylesheet" href="{{ asset('css/custom-logo.css') }}">
+        <!-- Blog image sizes css -->
+        <link rel="stylesheet" href="{{ asset('css/blog-images.css') }}">
+        <!-- Slider custom styles -->
+        <link rel="stylesheet" href="{{ asset('css/slider-custom.css') }}">
+        <!-- modernizr css -->
+        <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
     </head>
     <body>
 
         @include('layout.header')
 
-        @yield('content')        @include('layout.footer')
+        @yield('content')
 
-        <!-- all js here -->
-        <!-- jquery latest version -->
-        <script src="{{ asset('js/vendor/jquery-1.12.0.min.js') }}"></script>
-        <!-- bootstrap js -->
-        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-        <!-- owl.carousel js -->
-        <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-        <!-- jquery-ui js -->
-        <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
-        <!-- meanmenu js -->
-        <script src="{{ asset('js/jquery.meanmenu.js') }}"></script>        <!-- wow js -->
-        <script src="{{ asset('js/wow.min.js') }}"></script>
-        <!-- main js -->
-        <script src="{{ asset('js/main.js') }}"></script>
-        <!-- TinyMCE configuration -->
-        <script src="{{ asset('js/tinymce-config.js') }}"></script>
-        
-        @yield('scripts')
+        @include('layout.footer')
+
+
+
     </body>
 </html>

@@ -4,7 +4,7 @@
 
         <!-- Add your site or application content here -->
         
-        <header class="header-area home-2 sd-bar">
+        <header class="header-area home-2 sd-bar" style="position: fixed;">
 			<div class="logo-2">
                 <div class="logo-2-wrap">
                     <a href="{{route('home')}}"><img src="img/logo/Logo1.png" alt=""></a>
@@ -13,11 +13,7 @@
             
             <div class="header-menu header-menu-2">
                 <div class="header-wrapper">
-                    <div class="logo-stiky">
-                        <a href="index.html">
-                            <img src="img/logo/logo.png" alt="">
-                        </a>
-                    </div>
+
                     <div class="menu-cart">
                         <div class="muti_menu">
                             <nav>
@@ -25,18 +21,18 @@
                                     <li><a href="{{route('home')}}">Accueil</a></li>
                                    
                                     <li><a href="shop.html">A propos</a>
-                                    </li>
-                            
+                                    </li>                                    
                                     <li><a class="fast" href="index.html">Produits  <i class="fa fa-angle-down"></i></a>
                                         <div class="rayed ru">
                                             <div class="tas menu-last2">
-                                                <a href="blog.html">Shales</a>
-                                                <a href="blog-details.html">Foulards</a>
+                                                <a href="{{ route('shales') }}">Châles</a>
+                                                <a href="{{ route('foulards') }}">Foulards</a>
                                 
                                             </div>
                                         </div>
-                                    </li>                                    <li><a href="blog.html">Actualités </a></li>
-                                   <li><a href="contact.html">Contact</a></li> 
+                                    </li>    
+                                    <li><a href="blog.html">Actualités </a></li>
+                                   <li><a href="{{ route('contact') }}">Contact</a></li> 
 
                                    @auth
                                 
@@ -229,14 +225,13 @@
                                 </li> --}}
                                 <li><a href="shop.html">A propos</a></li>
                                 <li>
-                                    <a href="#">Produits</a>
-                                    <ul>
+                                    <a href="#">Produits</a>                                    <ul>
                                         <li>
-                                            <a href="blog.html">Shales</a>
-                                            <a href="blog-details.html">Foulards</a>
+                                            <a href="{{ route('shales') }}">Shales</a>
+                                            <a href="{{ route('foulards') }}">Foulards</a>
                                            
                                         </li>
-                                    </ul>                                </li>
+                                    </ul></li>
                                 
                                 <li><a href="blog.html">Actualités</a></li>
                                 <li><a href="contact.html">Contact</a></li>

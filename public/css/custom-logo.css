@@ -1,0 +1,15 @@
+/* Custom styles for logo images */
+.icon-slider-area .mates img {
+    border: 1px solid #8080809c;
+    padding: 10px;
+    transition: all 0.3s ease;
+    max-width: 80%;
+}
+
+.icon-slider-area .mates img:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+
+

@@ -7,73 +7,73 @@
                 <div class="bend niceties preview-2 hm-ver-1">
                     <div id="ensign-nivoslider-2" class="slides">
                         <img src="img/slider/slider-2.jpg" alt="" title="#slider-direction-1">
-                        <img src="img/slider/slider-1.jpg" alt="" title="#slider-direction-3">
-                        <img src="img/slider/slider-3.jpg" alt="" title="#slider-direction-2">
+                        {{-- <img src="img/slider/slider-1.jpg" alt="" title="#slider-direction-3">
+                        <img src="img/slider/slider-3.jpg" alt="" title="#slider-direction-2"> --}}
                     </div>
                     <!-- direction 1 -->
                     <div id="slider-direction-3" class="t-cn slider-direction Builder">
                         <div class="slide-all">
                             <!-- layer 1 -->
-                            <div class="layer-1">
+                            {{-- <div class="layer-1">
                                 <h2 class="title5">new collection</h2>
+                            </div> --}}
+                            <!-- layer 2 -->
+                            <div class="layer-2">
+                                <h2 class="title6">Couvrez-vous d’élégance</h2>
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <h2 class="title6">Men’s Fashion</h2>
-                            </div>
-                            <!-- layer 2 -->
-                            <div class="layer-2">
-                                <p class="title0">Save Up To 40% Off</p>
+                                <p class="title0">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
-                            <div class="layer-3">
+                            {{-- <div class="layer-3">
                                 <a class="min1" href="#">Shop Now</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div id="slider-direction-1" class="t-cn slider-direction Builder">
-                        <div class="slide-all slide2">
+                        <div class="slide-all">
                             <!-- layer 1 -->
-                            <div class="layer-1">
+                            {{-- <div class="layer-1">
                                 <h2 class="title5">new collection</h2>
+                            </div> --}}
+                            <!-- layer 2 -->
+                            <div class="layer-2">
+                                <h2 class="title6">Couvrez-vous d’élégance</h2>
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <h2 class="title6">Women’s Fashion</h2>
-                            </div>
-                            <!-- layer 2 -->
-                            <div class="layer-2">
-                                <p class="title0">Save Up To 40% Off</p>
+                                <p class="title0">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
-                            <div class="layer-3">
+                            {{-- <div class="layer-3">
                                 <a class="min1" href="#">Shop Now</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div id="slider-direction-2" class="t-cn slider-direction Builder">
                         <div class="slide-all2">
                             <!-- layer 1 -->
-                            <div class="layer-1">
+                            {{-- <div class="layer-1">
                                 <h2 class="title5 s3">summer fashion for season</h2>
+                            </div> --}}
+                            <!-- layer 2 -->
+                            <div class="layer-2">
+                                <h2 class="title6 s3">Enveloppez-vous d’élégance</h2>
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <h2 class="title6 s3">Women collection</h2>
-                            </div>
-                            <!-- layer 2 -->
-                            <div class="layer-2">
-                                <p class="title0 s3">Save Up To 40% Off</p>
+                                <p class="title0 s3">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
-                            <div class="layer-3">
+                            {{-- <div class="layer-3">
                                 <a class="min1" href="#">Shop Now</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 			    </div>
             </div>
-    </section>
+        </section>
         <div class="product-tab-area">
             <div class="container">
                 <div class="row">
@@ -553,67 +553,118 @@
                         		
                     </div>
                 </div>
-            </div>
+            </div>        
         </div>
+          <section class="about-chic-foulard" style="padding: 55px 0; background: linear-gradient(to right, #f6f5f5 50%, #fff 50%);">
+            <div class="container">
+                <div class="row">                    
+                    <div class="col-md-12 text-center mb-5">
+                        <div class="section-title" style="position: relative; margin-bottom: 30px;">
+                            <h2 style="color: #840444; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; position: relative; display: inline-block; padding-bottom: 15px;">Notre Histoire</h2>
+                            <div style="width: 80px; height: 3px; background-color: #840444; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);"></div>
+                        </div>
+                        <p style="color: #666; font-style: italic; max-width: 700px; margin: 0 auto; font-size: 16px;">Depuis 1968, nous créons l'élégance marocaine à travers nos collections</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">                    
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-image-container" style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 20px 0;">
+                            <div class="about-image" style="position: relative; padding: 20px; background-color: white; border-radius: 15px; box-shadow: 0 15px 50px rgba(0,0,0,0.15); transform: perspective(1000px) rotateY(-3deg); height: 100%; width: 90%; transition: transform 0.5s ease;">
+                                <img src="img/product/7.jpg" alt="À propos de Chic Foulard" style="width: 100%; height: 550px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.12); transition: all 0.5s ease; object-fit: cover; border: 6px solid white; filter: saturate(1.2) contrast(1.05);">
+                                <div style="position: absolute; width: 160px; height: 160px; background: linear-gradient(135deg, #840444 0%, #a50854 100%); bottom: -35px; right: -35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; text-align: center; font-size: 20px; line-height: 1.3; box-shadow: 0 10px 25px rgba(132, 4, 68, 0.4); border: 5px solid white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); transform: rotate(-5deg);">
+                                    DEPUIS<br>1968
+                                </div>
+                                <div style="position: absolute; top: -15px; left: -15px; background-color: white; padding: 10px 20px; border-radius: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); color: #840444; font-weight: 600; font-size: 16px;">
+                                    Notre Héritage
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="about-content" style="padding-left: 50px;">
+                            <div class="about-text">
+                                <p style="margin-bottom: 20px; line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
+                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Référence incontournable</span>
+                                    Depuis 1968, Chic Foulard s'est imposé comme une référence incontournable dans la confection de châles et foulards au Maroc. Forts de plusieurs décennies de savoir-faire, nous nous engageons à offrir une qualité irréprochable, mêlant tradition artisanale et innovation textile.
+                                </p>
+                                <p style="margin-bottom: 20px; line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
+                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Capacité de production</span>
+                                    Notre usine moderne, équipée pour répondre aux exigences du marché, permet une production pouvant atteindre jusqu'à 50 000 pièces par jour. Nous fabriquons tous types de châles et foulards — unis, imprimés, brodés ou personnalisés — en mettant un point d'honneur à respecter les standards les plus élevés.
+                                </p>
+                                <p style="line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
+                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Présence nationale</span>
+                                    Grâce à un réseau de distribution solide, nous sommes présents dans les principales villes du Royaume, avec des points de vente partout au Maroc. Nos modèles, issus directement de notre usine, sont conçus pour répondre aux tendances actuelles tout en s'adaptant aux besoins spécifiques de nos clients.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <section class="client-area home-2 stripe-parallax-bg" data-parallax-speed="0.5">
             <div class="client-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-12 text-center">
-                            <div class="client">
+                            <div class="client">                                
                                 <div class="pro-text">
-                                    <h3>Que disent les clients ?</h3>
+                                    <h3>Témoignages</h3>
                                     <img src="img/icon-img/underline-style-1.png" alt="">
                                 </div>
                                 <div class="client-all owl-carousel">
                                     <div class="client-slider">
                                         <div class="sppb-testimonial-message">
-                                            <p>““Ce thème est entièrement personnalisable, épuré et offre toutes les options souhaitées. Vous ne souhaitez pas une mise en page plein écran ? Un simple mot ajouté au code suffit pour transformer le site en une version boîte… Le support client est absolument incomparable. Chaque question reçoit une aide précieuse, bien plus que ce que l'on pourrait attendre compte tenu du prix. Je ne peux que le recommander […]</p>
+                                            <p>"Je suis absolument ravie de mon achat chez Chic-Foulard ! La qualité du tissu est exceptionnelle et les motifs sont magnifiques. Je reçois toujours des compliments quand je porte mes foulards."</p>
                                         </div>
-                                        <div class="client-img">
-                                            <img src="img/testimonial/item-11.png" alt="">
-                                            <a href="#">
-                                                <div class="ro-title">John Doe</div>
-                                            </a>
-                                            <span class="ro-company">Technical Support - Olker</span>
-                                        </div>
+                                        
+                                            
+                                        <div class="ro-title">Youssra S.</div>
+                                            
+                                        
                                     </div>
                                     <div class="client-slider">
                                         <div class="sppb-testimonial-message">
-                                            <p>““Ce thème est entièrement personnalisable, épuré et offre toutes les options souhaitées. Vous ne souhaitez pas une mise en page plein écran ? Un simple mot ajouté au code suffit pour transformer le site en une version boîte… Le support client est absolument incomparable. Chaque question reçoit une aide précieuse, bien plus que ce que l'on pourrait attendre compte tenu du prix. Je ne peux que le recommander […]</p>
+                                            <p>"Service client impeccable ! J'ai eu un petit souci avec ma commande et l'équipe a été très réactive pour résoudre le problème. Les foulards sont élégants et polyvalents, parfaits pour toutes les occasions."</p>
                                         </div>
-                                        <div class="client-img">
-                                            <img src="img/testimonial/elizabett.jpg" alt="">
-                                            <a href="#">
-                                            <div class="ro-title">Elizabeth Smith</div>
-                                            </a>
-                                            <span class="ro-company">Agency - Olker</span>
-                                        </div>
+                                        
+                                            <div class="ro-title">Amina E.</div>
+                                            
                                     </div>
                                     <div class="client-slider">
                                         <div class="sppb-testimonial-message">
-                                            <p>““Ce thème est entièrement personnalisable, épuré et offre toutes les options souhaitées. Vous ne souhaitez pas une mise en page plein écran ? Un simple mot ajouté au code suffit pour transformer le site en une version boîte… Le support client est absolument incomparable. Chaque question reçoit une aide précieuse, bien plus que ce que l'on pourrait attendre compte tenu du prix. Je ne peux que le recommander […]</p>
+                                            <p>"J'ai commandé plusieurs foulards pour offrir à ma famille et ils ont tous adoré ! La livraison a été rapide et l'emballage très soigné. Je recommande vivement Chic-Foulard pour des cadeaux élégants et de qualité."</p>
                                         </div>
-                                        <div class="client-img">
-                                            <img src="img/testimonial/user1.png" alt="">
-                                            <a href="#">
-                                            <div class="ro-title">John Doe</div>
-                                            </a>
-                                            <span class="ro-company">Technical Support - Olker</span>
-                                        </div>
+                                        
+                                            <div class="ro-title">Sarah A.</div>
+                                            
                                     </div>
                                     <div class="client-slider">
                                         <div class="sppb-testimonial-message">
-                                            <p>““Ce thème est entièrement personnalisable, épuré et offre toutes les options souhaitées. Vous ne souhaitez pas une mise en page plein écran ? Un simple mot ajouté au code suffit pour transformer le site en une version boîte… Le support client est absolument incomparable. Chaque question reçoit une aide précieuse, bien plus que ce que l'on pourrait attendre compte tenu du prix. Je ne peux que le recommander […]</p>
+                                            <p>"Les foulards de Chic-Foulard sont devenus indispensables dans ma garde-robe. Ils ajoutent une touche d'élégance à n'importe quelle tenue. Le rapport qualité-prix est excellent !"</p>
                                         </div>
-                                        <div class="client-img">
-                                            <img src="img/testimonial/user2.jpg" alt="">
-                                            <a href="#">
-                                            <div class="ro-title">Diana John</div>
-                                            </a>
-                                            <span class="ro-company">Director Business - Olker</span>
+                                        
+                                            <div class="ro-title">Kawtar Y.</div>
+                                            
+                                    </div>
+                                    <div class="client-slider">
+                                        <div class="sppb-testimonial-message">
+                                            <p>"J'adore la diversité des motifs proposés par Chic-Foulard. Il y en a pour tous les goûts et toutes les occasions. La qualité est au rendez-vous et les prix sont très raisonnables."</p>
                                         </div>
+                                        
+                                            <div class="ro-title">Alia M.</div>
+                                            
+                                    </div>
+                                    <div class="client-slider">
+                                        <div class="sppb-testimonial-message">
+                                            <p>"Depuis que j'ai découvert Chic-Foulard, je ne jure que par leurs produits ! Les foulards sont à la fois tendance et intemporels. Je suis une cliente fidèle et satisfaite."</p>
+                                        </div>
+                                        
+                                            
+                                            <div class="ro-title">Zineb S.</div>
+                                            
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -665,11 +716,11 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div> --}}                
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <div class="lastest-from">
-                        <h3 class="display-5 fw-bold text-uppercase mb-4 border-bottom pb-2 shadow-sm" style="color: #840444; border-color: #840444;">Foulard en vedette</h3>
+                        <div class="features-tab indicator-style2">
+                            <h3 class="text-uppercase mb-4"  style="color: #840444; font-weight: 600;">FOULARD EN VEDETTE</h3>
                         </div>
                     </div>
                 </div>
@@ -830,10 +881,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
+                <div class="row" style="margin-top: 65px">
                     <div class="col-md-12 text-center">
-                        <div class="lastest-from">
-                        <h3 class="display-5 fw-bold text-uppercase mb-4 border-bottom pb-2 shadow-sm" style="color: #840444; border-color: #840444;">Shales en vedette</h3>
+                        <div class="features-tab indicator-style2">
+                            <h3 class="text-uppercase mb-4" style="color: #840444; font-weight: 600;" >CHALES EN VEDETTE</h3>
                         </div>
                     </div>
                 </div>
@@ -996,105 +1047,19 @@
                 </div>
             </div>
         </section>
-        <section class="lastest-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="lastest-from res">
-                            <h3>Lastest From Blogs</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-active-two indicator-style2 owl-carousel">
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l1.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Dec / 11</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">That most modern</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l2.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Nov / 28</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">Glance Into the Future of Androids</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l3.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Dec / 11</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">Nullam at tellus vehicula</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l4.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Nov / 26</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">Summer Classics in Positano</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l5.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Nov / 16</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">Photography Tips From Wai Su</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                    <div class="tb-post-item">
-                        <a href="#">
-                            <div class="tb-thumb">
-                                <img src="img/banner/l1.jpg" alt="">
-                                <span class="tb-publish font-noraure-3">Dec / 11</span>
-                            </div>
-                        </a>
-                        <div class="tb-content7">
-                            <a href="#"><h4 class="tb-titlel">Nullam at tellus vehicula</h4></a>
-                            <div class="tb-excerpt"> The summer holidays are wonderful. Dressing for them can be significantly less so: Packing{...} </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="money-area home-2 stripe-parallax-bg" data-parallax-speed="0.5">
             <div class="money-bg">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 text-center">
+                    <div class="row">                        <div class="col-lg-4 col-md-4 text-center">
                             <div class="free-shopping-area">
                                 <a href="#">
                                     <div class="tb-service">
                                         <div class="tb-icon">
-                                            <i class="fa fa-truck"></i>
+                                            <i class="fa fa-star"></i>
                                         </div>
-                                        <h5 class="tb-title">LIVRAISON GRATUITE</h5>
+                                        <h5 class="tb-title">Excellence & Qualité</h5>
                                         <div class="tb-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, news do eiusmod tempor incididunt ut labore et dolore.</p>
+                                            <p>Chaque pièce est conçue avec soin, à partir de tissus rigoureusement sélectionnés, et fabriquée localement avec une grande précision, dans le respect du savoir-faire artisanal marocain.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1103,13 +1068,12 @@
                         <div class="col-lg-4 col-md-4 text-center">
                             <div class="free-shopping-area">
                                 <a href="#">
-                                    <div class="tb-service">
-                                        <div class="tb-icon">
-                                            <i class="fa fa-mail-forward"></i>
+                                    <div class="tb-service">                                        <div class="tb-icon">
+                                            <i class="fa fa-history"></i>
                                         </div>
-                                        <h5 class="tb-title">REMBOURSEMENT À 100 %</h5>
+                                        <h5 class="tb-title">Innovation ancrée dans la tradition</h5>
                                         <div class="tb-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, news do eiusmod tempor incididunt ut labore et dolore.</p>
+                                            <p>Nos créations s’inspirent de l’élégance marocaine tout en intégrant les tendances modernes et les technologies de confection les plus avancées, pour offrir style et performance.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1122,9 +1086,9 @@
                                         <div class="tb-icon">
                                             <i class="fa fa-comments"></i>
                                         </div>
-                                        <h5 class="tb-title">ASSISTANCE EN LIGNE</h5>
+                                        <h5 class="tb-title">Engagement & Proximité</h5>
                                         <div class="tb-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, news do eiusmod tempor incididunt ut labore et dolore.</p>
+                                            <p>Avec 22 points de vente à travers le Maroc, nous restons proches de nos clients, à l’écoute de leurs besoins, et engagés pour une mode plus responsable et accessible.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1134,10 +1098,51 @@
                 </div>
             </div>
         </section>
-        <div class="icon-slider-area">
+        <section class="lastest-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <div >
+                            <h3 style="font-weight: 600; color: #840444; margin-bottom: 48px;">LASTEST FROM BLOGS</h3>
+                        </div>
+                    </div>
+                </div>
+                    <div class="slider-active-two indicator-style2 owl-carousel">
+                    @forelse($articles as $article)
+                    <div class="tb-post-item">
+                        
+                            <div class="tb-thumb">
+                                <img src="{{ asset($article->image ?? 'img/banner/default.jpg') }}" alt="{{ $article->title }}">
+                                <span class="tb-publish font-noraure-3">{{ $article->created_at->format('M / d') }}</span>
+                            </div>
+                        
+                        <div class="tb-content7">
+                            <h4 class="tb-titlel">{{ $article->title }}</h4>
+                            <div class="tb-excerpt">{{ Str::limit(strip_tags($article->content), 100) }}</div>
+                        </div>
+                    </div>
+                    @empty
+                    <div class="tb-post-item">
+                        <a href="#">
+                            <div class="tb-thumb">
+                                <img src="img/banner/l1.jpg" alt="">
+                                <span class="tb-publish font-noraure-3">Aucun article</span>
+                            </div>
+                        </a>
+                        <div class="tb-content7">
+                            <a href="#"><h4 class="tb-titlel">Aucun article disponible</h4></a>
+                            <div class="tb-excerpt">Aucun article n'a été publié pour le moment.</div>
+                        </div>
+                    </div>
+                    @endforelse
+                </div>
+            </div>
+        </section>
+          <div class="icon-slider-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 style="font-weight: 600; color: #840444; margin-bottom: 48px;">NOS PARTENAIRES</h3>
                         <div class="mates">
                             <img src="img/icon-slider/logo-05.png" alt="">
                         </div>

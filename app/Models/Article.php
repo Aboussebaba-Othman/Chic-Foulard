@@ -9,11 +9,7 @@ class Article extends Model
 {
     use HasFactory;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+    
     protected $fillable = [
         'title',
         'content',
@@ -21,9 +17,7 @@ class Article extends Model
         'user_id',
     ];
 
-    /**
-     * Get the user that owns the article.
-     */
+   
     public function user()
     {
         return $this->belongsTo(User::class);

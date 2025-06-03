@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ArticlesController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,19 +17,35 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $articles = \App\Models\Article::latest()->take(6)->get();
+    return view('home', compact('articles'));
 })->name('home');
+
+Route::get('/shales', function () {
+    return view('shales');
+})->name('shales');
+
+Route::get('/foulards', function () {
+    return view('foulards');
+})->name('foulards');
+
+
+Route::get('/contact', function(){
+    return view('contact');
+})->name('contact');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    // Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    // Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    // Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     
-    // Article management routes
+    // // Article management routes
     Route::resource('articles', ArticlesController::class);
 });
 

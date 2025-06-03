@@ -1,27 +1,27 @@
-<footer class="footer-area" style="background-color: #f8f9fa; border-top: 3px solid #840444;">
+<footer class="footer-area" style="background-color: #f8f9fa; border-top: 3px solid #ffffff;">
             <div class="footer-top" style="padding: 40px 0;">
                 <div class="container">
                     <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px;">
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="flex: 1 1 23%;">
                             <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #840444; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Contactez-nous</h3>
+                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Contactez-nous</h3>
                                 <div class="textwidget">
                                     <ul style="list-style: none; padding-left: 0;">
                                         <li style="margin-bottom: 15px;">
                                             <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-map-marker" style="color: #840444; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
+                                                <i class="fa fa-map-marker" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
                                                 <span>NORAURE London Oxford Street 012 United Kingdom.</span>
                                             </a>
                                         </li>
                                         <li style="margin-bottom: 15px;">
                                             <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-envelope" style="color: #840444; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
+                                                <i class="fa fa-envelope" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
                                                 <span>emailnoraure@gmail.com emailsupport@gmail.com</span>
                                             </a>
                                         </li>
                                         <li style="margin-bottom: 15px;">
                                             <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-phone" style="color: #840444; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
+                                                <i class="fa fa-phone" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
                                                 <span>
                                                     (+92) 3456 7890
                                                     <br>
@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-3 col-12" style="flex: 1 1 23%;">
                             <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #840444; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Information</h3>
+                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Information</h3>
                                 <div class="textwidget">
                                     <ul class="f-none" style="list-style: none; padding-left: 0;">
                                         <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">My account</a></li>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-3 col-12" style="flex: 1 1 23%;">
                             <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #840444; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Produits</h3>
+                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Produits</h3>
                                 <div class="textwidget">
                                     <ul class="f-none" style="list-style: none; padding-left: 0;">
                                         <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Shales</a></li>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" style="flex: 1 1 23%;">
                             <div class="first-footer res-mrg-top-md rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #840444; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Notre politique</h3>
+                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Notre politique</h3>
                                 <div class="textwidget">
                                     <ul class="f-none" style="list-style: none; padding-left: 0;">
                                         <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Help & Contact</a></li>

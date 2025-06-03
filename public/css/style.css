@@ -1134,6 +1134,7 @@ line-height: 39px;
 .tb-product-item-inner.tb2.pct-last .tb-content {
     padding: 20px 10px;
     text-align: center;
+    border: 1px solid #80808075;
 }
 .nav.nav-tabs {
     display: inline-block;
@@ -1260,16 +1261,17 @@ line-height: 39px;
     z-index: 9;
 }
 .lastest-from > h3 {
-    color: #373737;
+    color: #840444;
     font-family: Oswald;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: normal;
-    line-height: 29px;
+    font-weight: 600;
+    line-height: 18px;
     opacity: 1;
     text-transform: uppercase;
     transition: opacity 0.24s ease-in-out 0s;
     visibility: visible;
+
 }
 .lastest-area .tb-post-item, .blog-area .tb-post-item {
     margin: 0 auto 30px;
@@ -1339,7 +1341,7 @@ line-height: 39px;
 }
 .footer-area .footer-top {
     padding: 55px 0 40px;
-    background-color: #212121;
+    background-color: #840444;
 }
 .footer-area .footer-top .first-footer h3, .footer-area .footer-top .last-footer h3 {
     color: #ffffff;
@@ -1664,6 +1666,7 @@ address {
 }
 .sppb-testimonial-message p {
     color: #fff;
+    font-size: 16px;
 }
 .client-all.owl-carousel .owl-item img {
 	width: auto;
@@ -1684,7 +1687,8 @@ address {
     position: relative;
     text-align: left;
 }
-.client-img a .ro-title {
+.ro-title {
+    align-items: center;
     color: #ffffff;
     font-size: 14px;
     line-height: 24px;
@@ -1748,7 +1752,7 @@ address {
     background-color: #ffffff !important;
     margin-bottom: 0 !important;
     padding-bottom: 85px !important;
-    padding-top: 85px !important;
+    padding-top: 50px !important;
 }
 /*--------------------- 4. index-3--------------------*/
 .header-area .header-menu.home-3 {

@@ -1327,6 +1327,7 @@ line-height: 39px;
     background-color: #f4f4f4 !important;
     padding-bottom: 40px !important;
     padding-top: 70px !important;
+    text-transform: uppercase;
 }
 .lastest-area .tb-thumb > img, .blog-area .tb-thumb > img  {
     height: auto;

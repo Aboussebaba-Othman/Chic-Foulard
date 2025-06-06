@@ -929,9 +929,28 @@
                     
                     .owl-nav .owl-next {
                         right: -15px;
-                    }
-                }
-            </style>
+                    }                
+                }            
+                    
+        </style>
+              <!-- Section Personnalisation (Version Simple) -->
+        <section class="personalization-simple" style="padding: 60px 0; background: linear-gradient(135deg, #f9f7f8 0%, #f2e9ee 100%); border-top: 1px solid rgba(132, 4, 68, 0.1); border-bottom: 1px solid rgba(132, 4, 68, 0.1);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-md-11 text-center">
+                        <h2 style="color: #840444; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 25px; font-size: 28px;">
+                            Vous souhaitez personnaliser votre châle ou votre foulard ?
+                        </h2>
+                        
+                        <a href="/contact" class="custom-btn" style="display: inline-block; background: #840444; color: white; font-weight: 600; padding: 15px 35px; border-radius: 5px; text-transform: uppercase; letter-spacing: 1px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(132, 4, 68, 0.3); margin-top: 5px;">
+                            Contactez-nous <i class="fa fa-arrow-right" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Section Personnalisation -->
+        
         <section class="design-area again-design">
             <div class="container">
                 {{-- <div class="bottom-design">

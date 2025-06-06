@@ -671,11 +671,10 @@
         </section>        
 
         <script>
-            $(document).ready(function(){                
-                // Override the main.js settings specifically for testimonials
+            $(document).ready(function(){                  // Override the main.js settings specifically for testimonials
                 $("#testimonials-carousel").owlCarousel({
                     loop: true,
-                    nav: true,
+                    nav: false, // Hide navigation arrows
                     autoplay: false, // Disable autoplay for testimonials
                     autoplayTimeout: 5000,
                     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
@@ -717,8 +716,13 @@
                     padding: 0 15px;
                 }
                 
+                /* Cacher explicitement les flèches de navigation pour le carousel de témoignages */
+                #testimonials-carousel .owl-nav {
+                    display: none !important;
+                }
+                
                 .pro-text {
-                    margin-bottom: 50px;
+                    margin-bottom: 20px;
                 }
                 
                 .pro-text h3 {

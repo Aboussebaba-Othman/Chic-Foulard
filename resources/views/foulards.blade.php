@@ -2,15 +2,6 @@
 
 @section('content')
 <style>
-    /* Styles avancés pour la section collection */
-    /* .section-title {
-        transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-    
-    .section-title:hover h2 {
-        transform: translateY(-5px);
-    } */
-    
     .section-title .title-line {
         position: relative;
         width: 140px;
@@ -32,10 +23,34 @@
         background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
         animation: shimmer 3s infinite;
     }
-    
-    @keyframes shimmer {
+      @keyframes shimmer {
         0% { left: -100%; }
         100% { left: 100%; }
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes scaleIn {
+        from { transform: scale(0.8); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
     }
     
     .collection-description {
@@ -72,8 +87,7 @@
         border-right: 2px solid #840444;
     }
 
-    /* Nouveaux styles pour les images et titres de produits */
-    .product-card {
+    /* Nouveaux styles pour les images et titres de produits */    .product-card {
         position: relative;
         border-radius: 12px;
         overflow: hidden;
@@ -82,7 +96,8 @@
         background: white;
         height: 100%;
         transform: translateY(0);
-        opacity: 0;
+        opacity: 1;
+        animation: fadeIn 0.5s ease forwards;
     }
     
     .product-card:hover {
@@ -473,106 +488,7 @@
     </div>
 </section>
 
-<script>
-    // Animations pour les filtres de collection
-    document.addEventListener('DOMContentLoaded', function() {
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        
-        filterButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                // Retirer la classe active de tous les boutons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                
-                // Ajouter la classe active au bouton cliqué
-                this.classList.add('active');
-                
-                // Animation des cartes (à implémenter avec la pagination réelle)
-                const productCards = document.querySelectorAll('.product-card');
-                productCards.forEach(card => {
-                    card.style.opacity = '0.5';
-                    card.style.transform = 'scale(0.95)';
-                    
-                    setTimeout(() => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'scale(1)';
-                    }, 300);
-                });
-            });
-        });
-        
-        // Animation de shimmer pour la ligne de titre
-        const titleLines = document.querySelectorAll('.title-line');
-        setInterval(() => {
-            titleLines.forEach(line => {
-                const shimmer = document.createElement('div');
-                shimmer.style.position = 'absolute';
-                shimmer.style.top = '0';
-                shimmer.style.left = '-100%';
-                shimmer.style.width = '100%';
-                shimmer.style.height = '100%';
-                shimmer.style.background = 'linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent)';
-                shimmer.style.animation = 'shimmer 2s forwards';
-                
-                line.appendChild(shimmer);
-                setTimeout(() => {
-                    line.removeChild(shimmer);
-                }, 2000);
-            });
-        }, 5000);
-    });
-    
-    // Animations pour la section produits
-    document.addEventListener('DOMContentLoaded', function() {
-        // Animation des cartes produits
-        const productCards = document.querySelectorAll('.product-card');
-        
-        // Animation d'entrée avec délai progressif
-        productCards.forEach((card, index) => {
-            setTimeout(() => {
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
-            }, 100 * index);
-        });
-          // Animation au survol pour les badges
-        const productBadges = document.querySelectorAll('.product-badge');
-        productBadges.forEach(badge => {
-            // Les badges sont déjà visibles par défaut
-        });
-        
-        // Animation avancée pour le titre des produits
-        const productTitles = document.querySelectorAll('.product-title');
-        productTitles.forEach(title => {
-            title.addEventListener('mouseenter', function() {
-                const titleLine = this.querySelector('h4');
-                titleLine.style.transform = 'translateY(-3px)';
-            });
-            
-            title.addEventListener('mouseleave', function() {
-                const titleLine = this.querySelector('h4');
-                titleLine.style.transform = 'translateY(0)';
-            });
-        });
-        
-        // Animation pour les boutons d'aperçu rapide
-        const quickViewBtns = document.querySelectorAll('.quick-view-btn');
-        quickViewBtns.forEach(btn => {
-            btn.addEventListener('mouseenter', function() {
-                this.style.letterSpacing = '1.5px';
-            });
-            
-            btn.addEventListener('mouseleave', function() {
-                this.style.letterSpacing = '1px';
-            });
-            
-            // Simulation d'ouverture de modal au clic
-            btn.addEventListener('click', function(e) {
-                e.preventDefault();
-                // Ici vous pourriez ajouter une logique pour ouvrir une modal
-                alert('Aperçu rapide: ' + this.closest('.product-card').querySelector('h4').textContent);
-            });
-        });
-    });
-</script>
+<!-- JavaScript removed to reduce page weight -->
 
 @endsection
 

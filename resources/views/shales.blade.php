@@ -24,10 +24,34 @@
         background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
         animation: shimmer 3s infinite;
     }
-    
-    @keyframes shimmer {
+      @keyframes shimmer {
         0% { left: -100%; }
         100% { left: 100%; }
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes scaleIn {
+        from { transform: scale(0.8); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
     }
     
     .collection-description {
@@ -64,8 +88,7 @@
         border-right: 2px solid #840444;
     }
 
-    /* Nouveaux styles pour les images et titres de produits */
-    .product-card {
+    /* Nouveaux styles pour les images et titres de produits */    .product-card {
         position: relative;
         border-radius: 12px;
         overflow: hidden;
@@ -74,7 +97,8 @@
         background: white;
         height: 100%;
         transform: translateY(0);
-        opacity: 0;
+        opacity: 1;
+        animation: fadeIn 0.5s ease forwards;
     }
     
     .product-card:hover {
@@ -392,60 +416,13 @@
                         <div class="product-title">
                             <h4>Shale Luxe</h4>
                         </div>
-                    </div>
+                    </div>                
                 </div>
             </div>
-        </div>    </div>
+        </div>    
+    </div>
 </section>
 
-<script>
-    // Animations pour la section produits
-    document.addEventListener('DOMContentLoaded', function() {
-        // Animation des cartes produits
-        const productCards = document.querySelectorAll('.product-card');
-        
-        // Animation d'entrée avec délai progressif
-        productCards.forEach((card, index) => {
-            setTimeout(() => {
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
-            }, 100 * index);
-        });
-        
-        // Animation avancée pour le titre des produits
-        const productTitles = document.querySelectorAll('.product-title');
-        productTitles.forEach(title => {
-            title.addEventListener('mouseenter', function() {
-                const titleLine = this.querySelector('h4');
-                titleLine.style.transform = 'translateY(-3px)';
-            });
-            
-            title.addEventListener('mouseleave', function() {
-                const titleLine = this.querySelector('h4');
-                titleLine.style.transform = 'translateY(0)';
-            });
-        });
-        
-        // Animation de shimmer pour la ligne de titre
-        const titleLines = document.querySelectorAll('.title-line');
-        setInterval(() => {
-            titleLines.forEach(line => {
-                const shimmer = document.createElement('div');
-                shimmer.style.position = 'absolute';
-                shimmer.style.top = '0';
-                shimmer.style.left = '-100%';
-                shimmer.style.width = '100%';
-                shimmer.style.height = '100%';
-                shimmer.style.background = 'linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent)';
-                shimmer.style.animation = 'shimmer 2s forwards';
-                
-                line.appendChild(shimmer);
-                setTimeout(() => {
-                    line.removeChild(shimmer);
-                }, 2000);
-            });
-        }, 5000);
-    });
-</script>
+<!-- JavaScript removed to reduce page weight -->
 
 @endsection

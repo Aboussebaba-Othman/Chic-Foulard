@@ -464,11 +464,10 @@
                     <div class="contact-info">
                         <h3 class="info-title">Parlons de vos besoins</h3>
                         <p class="info-text">N'hésitez pas à nous contacter pour toute question concernant nos produits, nos services ou pour planifier un rendez-vous dans notre atelier de création.</p>
-                        
-                        <div class="contact-details">
+                          <div class="contact-details">
                             <div class="contact-item">
                                 <div class="contact-icon">
-                                    <i class="fa fa-map-marker"></i>
+                                    <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="contact-detail">
                                     123 Avenue Mohammed V, Casablanca, Maroc
@@ -477,7 +476,7 @@
                             
                             <div class="contact-item">
                                 <div class="contact-icon">
-                                    <i class="fa fa-phone"></i>
+                                    <i class="fas fa-phone-alt"></i>
                                 </div>
                                 <div class="contact-detail">
                                     +212 522 123 456
@@ -486,7 +485,7 @@
                             
                             <div class="contact-item">
                                 <div class="contact-icon">
-                                    <i class="fa fa-envelope"></i>
+                                    <i class="fas fa-envelope"></i>
                                 </div>
                                 <div class="contact-detail">
                                     contact@chic-foulard.ma
@@ -495,18 +494,17 @@
                             
                             <div class="contact-item">
                                 <div class="contact-icon">
-                                    <i class="fa fa-clock-o"></i>
+                                    <i class="fas fa-clock"></i>
                                 </div>
                                 <div class="contact-detail">
                                     Lun - Sam: 9h00 - 18h00
                                 </div>
                             </div>
                         </div>
-                        
-                        <div class="social-links">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                          <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

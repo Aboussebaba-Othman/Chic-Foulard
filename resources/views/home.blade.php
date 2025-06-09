@@ -671,270 +671,10 @@
         </section>        
 
         <script>
-            $(document).ready(function(){                  // Override the main.js settings specifically for testimonials
-                $("#testimonials-carousel").owlCarousel({
-                    loop: true,
-                    nav: false, // Hide navigation arrows
-                    autoplay: false, // Disable autoplay for testimonials
-                    autoplayTimeout: 5000,
-                    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-                    smartSpeed: 600,
-                    margin: 10, // Reduced margin for smaller cards
-                    stagePadding: 18,
-                    dots: true,
-                    responsive: {
-                        0: {
-                            items: 1,
-                            margin: 10
-                        },
-                        576: {
-                            items: 1,
-                            margin: 10
-                        },
-                        768: {
-                            items: 2,
-                            margin: 10
-                        },
-                        992: {
-                            items: 3,
-                            margin: 12
-                        },
-                        1200: {
-                            items: 3,
-                            margin: 15
-                        }
-                    }
-
-                });
-            });
-        </script>        
-
-            <style>            
-                .container {
-                    max-width: 1400px; /* Increased container width */
-                    margin: 0 auto;
-                    padding: 0 15px;
-                }
-                
-                /* Cacher explicitement les flèches de navigation pour le carousel de témoignages */
-                #testimonials-carousel .owl-nav {
-                    display: none !important;
-                }
-                
-                .pro-text {
-                    margin-bottom: 20px;
-                }
-                
-                .pro-text h3 {
-                    color: #fff;
-                    font-size: 42px;
-                    font-weight: 700;
-                    margin-bottom: 20px;
-                    text-transform: uppercase;
-                    letter-spacing: 2px;
-                }
-                .client-area .tb-product-item-inner {
-                    text-align: center;
-                    padding: 25px 20px;
-                    background-color: rgba(255,255,255,0.1);
-                    border-radius: 12px;
-                    height: 280px; /* Fixed height instead of min-height */
-                    margin: 0 5px;
-                    transition: all 0.3s ease;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    backdrop-filter: blur(10px);
-                    border: 1px solid rgba(255,255,255,0.2);
-                    max-width: 360px;
-                    width: 100%;
-                }
-                
-                .client-area .tb-product-item-inner:hover {
-                    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-                    background-color: rgba(255,255,255,0.2);
-                    border-color: rgba(255,255,255,0.4);
-                }
-                
-                /* Add quotation marks for testimonials */
-                .sppb-testimonial-message:before {
-                    content: '\201C'; /* Opening quotation mark */
-                    font-size: 50px; /* Reduced size */
-                    line-height: 1;
-                    color: rgba(255,255,255,0.3);
-                    font-family: Georgia, serif;
-                    position: absolute;
-                    top: -8px; /* Adjusted position */
-                    left: 2px; /* Adjusted position */
-                }
-                .sppb-testimonial-message {
-                    flex: 1;
-                    position: relative;
-                    padding-left: 25px;
-                    padding-top: 15px;
-                    flex-grow: 1;
-                    display: flex;
-                    align-items: flex-start;
-                    height: 160px; /* Fixed height for testimonial messages */
-                    overflow: hidden; /* Hide overflow content */
-                }
-                .sppb-testimonial-message p {
-                    font-size: 14px;
-                    font-style: italic;
-                    line-height: 1.5;
-                    color: #fff;
-                    margin-bottom: 0;
-                    text-align: left;
-                    font-weight: 300;
-                    overflow: hidden;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 7; /* Limit to approximately 7 lines */
-                    -webkit-box-orient: vertical;
-                }
-                .client-area .ro-title {
-                    color: #fff;
-                    font-weight: 600;
-                    margin-top: 15px; /* Reduced margin */
-                    font-size: 16px; /* Reduced font size */
-                    text-transform: uppercase;
-                    padding-top: 12px; /* Reduced padding */
-                    border-top: 2px solid rgba(255,255,255,0.3);
-                    letter-spacing: 1px;
-                    flex-shrink: 0; /* Prevent shrinking */
-                    height: 40px; /* Fixed height instead of min-height */
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                .owl-nav button {
-                    background: rgba(255,255,255,0.2) !important;
-                    color: white !important;
-                    width: 50px;
-                    height: 50px;
-                    border-radius: 50% !important;
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    font-size: 18px !important;
-                    border: 2px solid rgba(255,255,255,0.3) !important;
-                    transition: all 0.3s ease !important;
-                }
-                
-                .owl-nav button:hover {
-                    background: rgba(255,255,255,0.4) !important;
-                    border-color: rgba(255,255,255,0.6) !important;
-                    transform: translateY(-50%) scale(1.1);
-                }
-                
-                .owl-nav .owl-prev {
-                    left: -30px;
-                }
-                
-                .owl-nav .owl-next {
-                    right: -30px;
-                }
-                
-                .owl-dots {
-                    text-align: center;
-                    margin-top: 30px;
-                }
-                
-                .owl-dots .owl-dot {
-                    display: inline-block;
-                    margin: 0 8px;
-                }
-                #testimonials-carousel .owl-stage {
-                display: flex;
-                }
-
-                #testimonials-carousel .owl-item {
-                    display: flex;
-                    height: auto;
-                }
-
-                #testimonials-carousel .tb-product-item-inner {
-                    flex: 1;
-                }
-
-                
-                .owl-dots .owl-dot span {
-                    width: 12px;
-                    height: 12px;
-                    background: rgba(255,255,255,0.3);
-                    border-radius: 50%;
-                    display: block;
-                    transition: all 0.3s ease;
-                }
-                
-                .owl-dots .owl-dot.active span {
-                    background: white;
-                    transform: scale(1.2);
-                }
-                
-                .owl-dots .owl-dot:hover span {
-                    background: rgba(255,255,255,0.6);
-                }
-                
-                .tb-content {
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;
-                    justify-content: space-between;
-                }
-                
-                /* Responsive adjustments */    @media (max-width: 1199px) {
-                    .client-area .tb-product-item-inner {
-                        max-width: 280px;
-                        padding: 22px 18px;
-                        height: 280px; /* Fixed height */
-                    }
-                    
-                    .sppb-testimonial-message {
-                        height: 160px; /* Fixed height for testimonial messages */
-                    }
-                }
-                @media (max-width: 991px) {
-                    .client-area .tb-product-item-inner {
-                        max-width: 250px;
-                        padding: 20px 15px;
-                        margin: 0 8px;
-                        height: 280px; /* Fixed height */
-                    }
-                    
-                    .sppb-testimonial-message {
-                        height: 160px; /* Fixed height for testimonial messages */
-                    }
-                }
-                @media (max-width: 767px) {
-                    .client-area .tb-product-item-inner {
-                        max-width: none;
-                        margin: 0 5px;
-                        height: 260px; /* Fixed height */
-                        padding: 18px 15px;
-                    }
-                    
-                    .sppb-testimonial-message {
-                        height: 140px; /* Smaller height for mobile */
-                    }
-                    
-                    .client-area .ro-title {
-                        font-size: 14px;
-                        height: 40px; /* Keep height consistent */
-                    }
-                    
-                    .owl-nav .owl-prev {
-                        left: -15px;
-                    }
-                    
-                    .owl-nav .owl-next {
-                        right: -15px;
-                    }                
-                }            
-                    
-        </style>
+            
+        </script>       
               <!-- Section Personnalisation (Version Simple) -->
-        <section class="personalization-simple" style="padding: 60px 0; background: linear-gradient(135deg, #f9f7f8 0%, #f2e9ee 100%); border-top: 1px solid rgba(132, 4, 68, 0.1); border-bottom: 1px solid rgba(132, 4, 68, 0.1);">
+        <section class="personalization-simple" style="padding: 60px 0; background: linear-gradient(135deg, #a39ea0 0%, #f2e9ee 100%); border-top: 1px solid rgba(132, 4, 68, 0.1); border-bottom: 1px solid rgba(132, 4, 68, 0.1);">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-md-11 text-center">
@@ -1384,27 +1124,29 @@
             </div>
         </section>
         <section class="lastest-area">
-            <div class="container">
+            <div class="container">                
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <div >
+                        <div id="actualites">
                             <h3 style="font-weight: 600; color: #840444; margin-bottom: 48px; text-transform: uppercase;">Actualités</h3>
                         </div>
                     </div>
-                </div>
-                    <div class="slider-active-two indicator-style2 owl-carousel">
+                </div><div class="slider-active-two indicator-style2 owl-carousel">
                     @forelse($articles as $article)
                     <div class="tb-post-item">
-                        
+                        <a href="{{ route('articles.show', $article) }}" style="display: block; color: inherit; text-decoration: none;">
                             <div class="tb-thumb">
                                 <img src="{{ asset($article->image ?? 'img/banner/default.jpg') }}" alt="{{ $article->title }}">
                                 <span class="tb-publish font-noraure-3">{{ $article->created_at->format('M / d') }}</span>
                             </div>
                         
-                        <div class="tb-content7">
-                            <h4 class="tb-titlel">{{ $article->title }}</h4>
-                            <div class="tb-excerpt">{{ Str::limit(strip_tags($article->content), 100) }}</div>
-                        </div>
+                            <div class="tb-content7">
+                                <h4 class="tb-titlel">{{ $article->title }}</h4>                                <div class="tb-excerpt">{{ Str::limit(strip_tags($article->content), 100) }}</div>
+                                <div class="mt-2">
+                                    <span class="read-more-button" style="color: #840444; font-size: 14px; font-weight: 500; display: inline-block; transition: all 0.3s ease;">Lire la suite <i class="fa fa-arrow-right" style="font-size: 12px; margin-left: 5px; transition: transform 0.3s ease;"></i></span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     @empty
                     <div class="tb-post-item">
@@ -1422,6 +1164,7 @@
                     @endforelse
                 </div>
             </div>
+            
         </section>
           <div class="icon-slider-area">
             <div class="container">

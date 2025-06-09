@@ -4,10 +4,9 @@
 
         <!-- Add your site or application content here -->
         
-        <header class="header-area home-2 sd-bar" style="position: fixed;">
-			<div class="logo-2">
+        <header class="header-area home-2 sd-bar" style="position: fixed;">			<div class="logo-2">
                 <div class="logo-2-wrap">
-                    <a href="{{route('home')}}"><img src="img/logo/Logo1.png" alt=""></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('img/logo/Logo1.png') }}" alt="Logo Chic-Foulard"></a>
                 </div>
 			</div>
             

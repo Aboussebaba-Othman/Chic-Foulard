@@ -281,7 +281,42 @@
     
     
     
-    
+    $(document).ready(function(){                  // Override the main.js settings specifically for testimonials
+                $("#testimonials-carousel").owlCarousel({
+                    loop: true,
+                    nav: false, // Hide navigation arrows
+                    autoplay: false, // Disable autoplay for testimonials
+                    autoplayTimeout: 5000,
+                    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                    smartSpeed: 600,
+                    margin: 10, // Reduced margin for smaller cards
+                    stagePadding: 18,
+                    dots: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            margin: 10
+                        },
+                        576: {
+                            items: 1,
+                            margin: 10
+                        },
+                        768: {
+                            items: 2,
+                            margin: 10
+                        },
+                        992: {
+                            items: 3,
+                            margin: 12
+                        },
+                        1200: {
+                            items: 3,
+                            margin: 15
+                        }
+                    }
+
+                });
+            });
     
     
     

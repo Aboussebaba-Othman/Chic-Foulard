@@ -41,6 +41,9 @@
         <link rel="stylesheet" href="{{ asset('css/blog-images.css') }}">
         <!-- Slider custom styles -->
         <link rel="stylesheet" href="{{ asset('css/slider-custom.css') }}">
+
+        <link rel="stylesheet" href="{{ asset('css/temoignages.css') }}">
+
         <!-- modernizr css -->
         <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
 

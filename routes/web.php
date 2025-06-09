@@ -40,13 +40,16 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+// Route accessible sans authentification pour voir un article
+Route::get('/articles/{article}', [ArticlesController::class, 'show'])->name('articles.show');
+
 Route::middleware('auth')->group(function () {
     // Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     // Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     // Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     
-    // // Article management routes
-    Route::resource('articles', ArticlesController::class);
+    // Article management routes (sauf show qui est défini au-dessus)
+    Route::resource('articles', ArticlesController::class)->except(['show']);
 });
 
 require __DIR__.'/auth.php';

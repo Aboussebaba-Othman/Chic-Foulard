@@ -1,97 +1,250 @@
-<footer class="footer-area" style="background-color: #f8f9fa; border-top: 3px solid #ffffff;">
-            <div class="footer-top" style="padding: 40px 0;">
-                <div class="container">
-                    <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px;">
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="flex: 1 1 23%;">
-                            <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Contactez-nous</h3>
-                                <div class="textwidget">
-                                    <ul style="list-style: none; padding-left: 0;">
-                                        <li style="margin-bottom: 15px;">
-                                            <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-map-marker" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
-                                                <span>NORAURE London Oxford Street 012 United Kingdom.</span>
-                                            </a>
-                                        </li>
-                                        <li style="margin-bottom: 15px;">
-                                            <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-envelope" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
-                                                <span>emailnoraure@gmail.com emailsupport@gmail.com</span>
-                                            </a>
-                                        </li>
-                                        <li style="margin-bottom: 15px;">
-                                            <a href="#" style="display: flex; align-items: flex-start; text-decoration: none;">
-                                                <i class="fa fa-phone" style="color: #ffffff; margin-right: 10px; min-width: 15px; margin-top: 4px;"></i>
-                                                <span>
-                                                    (+92) 3456 7890
-                                                    <br>
-                                                    (+92) 1234 5678
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+<footer class="footer-area">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Logo et Description -->                
+                <div class="col-lg-5 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo mb-4">
+                            <a href="{{route('home')}}">
+                                <img src="{{ asset('img/logo/Logo1.png') }}" alt="Logo Chic-Foulard" style="max-width: 180px;">
+                            </a>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-3 col-12" style="flex: 1 1 23%;">
-                            <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Information</h3>
-                                <div class="textwidget">
-                                    <ul class="f-none" style="list-style: none; padding-left: 0;">
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">My account</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Order history</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Wish List</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Returns</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Privacy Policy</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Site Map</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <p class="company-description">
+                            Depuis 1968, Chic Foulard s'est imposé comme une référence incontournable dans la confection de châles et foulards au Maroc. Forts de plusieurs décennies de savoir-faire, nous nous engageons à offrir une qualité irréprochable, mêlant tradition artisanale et innovation textile.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
                         </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-3 col-12" style="flex: 1 1 23%;">
-                            <div class="first-footer rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Produits</h3>
-                                <div class="textwidget">
-                                    <ul class="f-none" style="list-style: none; padding-left: 0;">
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Shales</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Foulards</a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12" style="flex: 1 1 23%;">
-                            <div class="first-footer res-mrg-top-md rspn" style="margin-bottom: 25px;">
-                                <h3 class="wg-title" style="color: #ffffff; font-weight: 700; position: relative; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #eee;">Notre politique</h3>
-                                <div class="textwidget">
-                                    <ul class="f-none" style="list-style: none; padding-left: 0;">
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Help & Contact</a></li>
-                                        <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; transition: color 0.3s;">Shipping & taxes</a></li>
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
-            </div>
-            <div class="footer-bottom" style="background-color: #f1f1f1; padding: 15px 0; border-top: 1px solid #e1e1e1;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <div class="footer-address">
-                                <address style="margin-bottom: 0; font-style: normal; color: #555;">
-                                    Copyright ©
-                                    <a href="#" style="color: #840444; text-decoration: none; font-weight: 600;">ChicFoulard.</a>
-                                    All Rights Reserved
-                                </address>
+                
+                <!-- Liens Information -->
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-title">Information</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Nos Valeurs</a></li>
+                            <li><a href="#">Notre Histoire</a></li>
+                            <li><a href="#">Actualités</a></li>
+                            <li><a href="#">Témoignages</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Plan du site</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Liens Produits -->
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-title">Produits</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Châles</a></li>
+                            <li><a href="#">Foulards</a></li>
+                            <li><a href="#">Nouveautés</a></li>
+                            <li><a href="#">BesteSeller</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-title">Nous Contacter</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Casablanca, Maroc<br>Quartier des Habous</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>
+                                    contact@chicfoulard.ma<br>
+                                    support@chicfoulard.ma
+                                </span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>
+                                    +212 522 123 456<br>
+                                    +212 661 234 567
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </div>
+    
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">                    
+                   <div class="text-center">
+                        <p>
+                            Copyright © 
+                            <a href="#">ChicFoulard</a>. 
+                            Tous droits réservés
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+        .footer-area {
+            background-color: #f8f9fa;
+            border-top: 4px solid #ffffff;
+        }
+        
+        .footer-top {
+            padding: 50px 0;
+        }
+        
+        .footer-title {
+            color: #333;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+            position: relative;
+        }
+        
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: #d63384;
+        }
+        
+        .company-description {
+            color: #c1c9d0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            color: #131516;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .social-links a:hover {
+            background-color: #d63384;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #c1c9d0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #d63384;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .contact-item i {
+            color: #d63384;
+            margin-right: 12px;
+            margin-top: 3px;
+            min-width: 16px;
+        }
+        
+        .contact-item span {
+            color: #c1c9d0;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        
+        .footer-bottom {
+            background-color: #e9ecef;
+            padding: 20px 0;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .footer-bottom p {
+            margin: 0;
+            color: #c1c9d0;
+            font-size: 0.9rem;
+        }
+        
+        .footer-bottom a {
+            color: #d63384;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .footer-bottom a:hover {
+            color: #b02a5b;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-top {
+                padding: 30px 0;
+            }
+            
+            .social-links {
+                justify-content: center;
+                margin-top: 20px;
+            }
+            
+            .text-md-start {
+                text-align: center !important;
+            }
+        }
+    </style>
         
         
         <!-- start scrollUp

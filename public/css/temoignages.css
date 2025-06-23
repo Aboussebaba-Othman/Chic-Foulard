@@ -21,41 +21,39 @@
                     margin-bottom: 20px;
                     text-transform: uppercase;
                     letter-spacing: 2px;
-                }               
-                .client-area .tb-product-item-inner {
+                }                 .client-area .tb-product-item-inner {
                     text-align: center;
                     padding: 25px 20px;
-                    background-color: rgba(255,255,255,0.1);
+                    background-color: rgba(255,255,255,0.15);
                     border-radius: 12px;
                     min-height: 280px; /* Keeps min-height to maintain card size */
                     margin: 0 5px;
                     transition: all 0.3s ease;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
+                    flex-direction: column;                    justify-content: space-between;
+                    -webkit-backdrop-filter: blur(10px);
                     backdrop-filter: blur(10px);
-                    border: 1px solid rgba(255,255,255,0.2);
+                    border: 1px solid rgba(255,255,255,0.25);
                     max-width: 360px;
                     width: 100%;
                 }
                 
                 .client-area .tb-product-item-inner:hover {
-                    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-                    background-color: rgba(255,255,255,0.2);
-                    border-color: rgba(255,255,255,0.4);
+                    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+                    background-color: rgba(255,255,255,0.25);
+                    border-color: rgba(255,255,255,0.5);
                 }
-                
-                /* Add quotation marks for testimonials */
+                  /* Add quotation marks for testimonials */
                 .sppb-testimonial-message:before {
                     content: '\201C'; /* Opening quotation mark */
                     font-size: 50px; /* Reduced size */
                     line-height: 1;
-                    color: rgba(255,255,255,0.3);
+                    color: rgba(255,255,255,0.5);
                     font-family: Georgia, serif;
                     position: absolute;
                     top: -8px; /* Adjusted position */
                     left: 2px; /* Adjusted position */
-                }                
+                }
                 .sppb-testimonial-message {
                     flex: 1;
                     position: relative;
@@ -76,15 +74,14 @@
                     text-align: left;
                     font-weight: 300;
                     /* Removed overflow, line clamp and box-orient to show full content */
-                }                
-                .client-area .ro-title {
+                }                  .client-area .ro-title {
                     color: #fff;
                     font-weight: 600;
                     margin-top: 20px; /* Increased margin to provide more separation */
                     font-size: 16px;
                     text-transform: uppercase;
                     padding-top: 12px;
-                    border-top: 2px solid rgba(255,255,255,0.3);
+                    border-top: 2px solid rgba(255,255,255,0.4);
                     letter-spacing: 1px;
                     flex-shrink: 0; /* Prevent shrinking */
                     height: 40px; /* Fixed height for author name */

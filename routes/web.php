@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+
 use App\Http\Controllers\ArticlesController;
-use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,7 +29,7 @@ Route::get('/foulards', function () {
 })->name('foulards');
 
 
-Route::get('/contact', function(){
+Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 

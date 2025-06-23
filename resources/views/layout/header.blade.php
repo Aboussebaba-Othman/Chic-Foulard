@@ -15,13 +15,13 @@
 
                     <div class="menu-cart">
                         <div class="muti_menu">
-                            <nav>
+                            <nav>                                
                                 <ul>
-                                    <li><a href="{{route('home')}}">Accueil</a></li>
+                                    <li><a href="{{route('home')}}" style="font-weight: 500;">Accueil</a></li>
                                    
-                                    <li><a href="shop.html">A propos</a>
+                                    <li><a href="{{route('home')}}#about" style="font-weight: 500;">A propos</a>
                                     </li>                                    
-                                    <li><a class="fast" href="index.html">Produits  <i class="fa fa-angle-down"></i></a>
+                                    <li><a class="fast" href="index.html" style="font-weight: 500;">Produits  <i class="fa fa-angle-down"></i></a>
                                         <div class="rayed ru">
                                             <div class="tas menu-last2">
                                                 <a href="{{ route('shales') }}">Châles</a>
@@ -30,20 +30,20 @@
                                             </div>
                                         </div>
                                     </li>    
-                                    <li><a href="blog.html">Actualités </a></li>
-                                   <li><a href="{{ route('contact') }}">Contact</a></li> 
+                                    <li><a href="{{route('home')}}#actualites" style="font-weight: 500;">Actualités</a></li>
+                                   <li><a href="{{ route('contact') }}" style="font-weight: 500;">Contact</a></li>
 
                                    @auth
                                 
                                 <li>
                                     <a href="{{ route('articles.index') }}" style="background-color: #ffffff; color: #840444; padding: 0px 3px; border-radius: 3px; font-size: 0.9em; border: 1px solid #840444;">
-                                        <i class="fa fa-pencil" style="margin-right: 2px;"></i>Gérer Articles
+                                        <i class="fa fa-pencil" style="margin-right: 2px;" style="font-weight: 500;"></i>Gérer Articles
                                     </a>
                                 </li>
                                 <li>
                                     <form method="POST" action="{{ route('logout') }}" style="display:inline;">
                                         @csrf
-                                        <a href="#" onclick="event.preventDefault(); this.closest('form').submit();">Déconnexion</a>
+                                        <a href="#" onclick="event.preventDefault(); this.closest('form').submit();" style="font-weight: 500;">Déconnexion</a>
                                     </form>
                                 </li>
                                 
@@ -120,9 +120,8 @@
                             </div> --}}
                             <div class="mobile-menu">
                         <nav id="dropdown">
-                            <ul class="main-menu">
-                                <li>
-                                    <a href="index.html">Accueil</a>
+                            <ul class="main-menu">                                <li>
+                                    <a href="{{route('home')}}">Accueil</a>
                                     
                                 </li>
                                 {{-- <li>
@@ -221,8 +220,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li> --}}
-                                <li><a href="shop.html">A propos</a></li>
+                                </li> --}}                                <li><a href="{{route('home')}}#about">A propos</a></li>
                                 <li>
                                     <a href="#">Produits</a>                                    <ul>
                                         <li>
@@ -232,8 +230,8 @@
                                         </li>
                                     </ul></li>
                                 
-                                <li><a href="blog.html">Actualités</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{route('home')}}#actualites">Actualités</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
                                 
                                 @auth
                                 <li>

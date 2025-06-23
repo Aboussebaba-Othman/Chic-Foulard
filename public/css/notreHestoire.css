@@ -1,0 +1,169 @@
+
+        .about-section {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+        }
+
+        .engagement-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: #e9ecef;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            color: #495057;
+            text-decoration: none;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .engagement-badge:hover {
+            background-color: #dee2e6;
+            color: #495057;
+            transform: translateX(5px);
+        }
+
+        .engagement-badge i {
+            margin-left: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .engagement-badge:hover i {
+            transform: translateX(3px);
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #840444;
+            line-height: 1.2;
+            margin-bottom: 40px;
+        }
+
+        .accordion-container {
+            max-width: 600px;
+        }
+
+        .custom-accordion .accordion-item {
+            border: none;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .custom-accordion .accordion-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .custom-accordion .accordion-button {
+            background-color: white;
+            border: none;
+            padding: 25px 30px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+            position: relative;
+            box-shadow: none;
+        }
+
+        .custom-accordion .accordion-button:not(.collapsed) {
+            background-color: white;
+            color: #840444;
+        }
+
+        .custom-accordion .accordion-button::after {
+            content: '+';
+            background: none;
+            width: 30px;
+            height: 30px;
+            background-color: #840444;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .custom-accordion .accordion-button:not(.collapsed)::after {
+            content: '−';
+            transform: rotate(0deg);
+        }
+
+        .custom-accordion .accordion-body {
+            padding: 0 30px 30px 30px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .image-container {
+            position: relative;
+            height: 500px;
+        }
+
+        .main-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .heritage-badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #840444 0%, #a50854 100%);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 14px;
+            box-shadow: 0 5px 15px rgba(132, 4, 68, 0.3);
+        }
+
+        .year-badge {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #840444 0%, #3d7a37 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.2;
+            box-shadow: 0 10px 25px rgba(45, 90, 39, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2rem;
+            }
+            
+            .image-container {
+                height: 400px;
+                margin-top: 40px;
+            }
+            
+            .custom-accordion .accordion-button {
+                padding: 20px;
+                font-size: 1rem;
+            }
+            
+            .custom-accordion .accordion-body {
+                padding: 0 20px 25px 20px;
+            }
+        }
+   

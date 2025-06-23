@@ -23,7 +23,7 @@
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <p class="title0">Châles & Foulards pensés pour vous</p>
+                                <p class="title0" style="font-weight: 600;">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
                             {{-- <div class="layer-3">
@@ -43,7 +43,7 @@
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <p class="title0">Châles & Foulards pensés pour vous</p>
+                                <p class="title0" style="font-weight: 600;">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
                             {{-- <div class="layer-3">
@@ -63,7 +63,7 @@
                             </div>
                             <!-- layer 2 -->
                             <div class="layer-2">
-                                <p class="title0 s3">Châles & Foulards pensés pour vous</p>
+                                <p class="title0 s3" style="font-weight: 600;">Châles & Foulards pensés pour vous</p>
                             </div>
                             <!-- layer 3 -->
                             {{-- <div class="layer-3">
@@ -312,7 +312,7 @@
                                             </div>
                                         </div>
                                         <div class="tb-product-item-inner tb2 pct-last">
-                                            <img alt="" src="img/product/7.jpg">
+                                            <img alt="" src="img/product/10 - Copie.jpg">
                                             <div class="tb-content">
                                                 <div class="tb-it">
                                                     <div class="tb-beg">
@@ -554,54 +554,89 @@
                     </div>
                 </div>
             </div>        
-        </div>
-          <section class="about-chic-foulard" style="padding: 55px 0; background: linear-gradient(to right, #f6f5f5 50%, #fff 50%);">
-            <div class="container">
-                <div class="row">                    
-                    <div class="col-md-12 text-center mb-5">
-                        <div class="section-title" style="position: relative; margin-bottom: 30px;">
-                            <h2 style="color: #840444; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; position: relative; display: inline-block; padding-bottom: 15px;">Notre Histoire</h2>
-                            <div style="width: 80px; height: 3px; background-color: #840444; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);"></div>
-                        </div>
-                        <p style="color: #666; font-style: italic; max-width: 700px; margin: 0 auto; font-size: 16px;">Depuis 1968, nous créons l'élégance marocaine à travers nos collections</p>
-                    </div>
-                </div>
-                <div class="row align-items-center">                    
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-image-container" style="display: flex; align-items: center; justify-content: center; height: 100%; padding: 20px 0;">
-                            <div class="about-image" style="position: relative; padding: 20px; background-color: white; border-radius: 15px; box-shadow: 0 15px 50px rgba(0,0,0,0.15); transform: perspective(1000px) rotateY(-3deg); height: 100%; width: 90%; transition: transform 0.5s ease;">
-                                <img src="img/product/7.jpg" alt="À propos de Chic Foulard" style="width: 100%; height: 550px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.12); transition: all 0.5s ease; object-fit: cover; border: 6px solid white; filter: saturate(1.2) contrast(1.05);">
-                                <div style="position: absolute; width: 160px; height: 160px; background: linear-gradient(135deg, #840444 0%, #a50854 100%); bottom: -35px; right: -35px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; text-align: center; font-size: 20px; line-height: 1.3; box-shadow: 0 10px 25px rgba(132, 4, 68, 0.4); border: 5px solid white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); transform: rotate(-5deg);">
-                                    DEPUIS<br>1968
+        </div>          
+    
+
+
+
+<section class="about-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Contenu de gauche -->
+            <div class="col-lg-6 col-md-12">
+                <div class="content-wrapper">
+                    <a href="" class="engagement-badge">
+                        Notre engagement
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    
+                    <h2 class="main-title">
+                        Notre histoire, notre vision et nos valeurs
+                    </h2>
+                    
+                    <div class="accordion-container">
+                        <div class="accordion custom-accordion" id="aboutAccordion">
+                            <!-- Référence incontournable -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Notre histoire : référence incontournable depuis 1968
+                                    </button>
+                                </h3>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                                    <div class="accordion-body">
+                                        Depuis 1968, Chic Foulard s'est imposé comme une référence incontournable dans la confection de châles et foulards au Maroc. Forts de plusieurs décennies de savoir-faire, nous nous engageons à offrir une qualité irréprochable, mêlant tradition artisanale et innovation textile.
+                                    </div>
                                 </div>
-                                <div style="position: absolute; top: -15px; left: -15px; background-color: white; padding: 10px 20px; border-radius: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); color: #840444; font-weight: 600; font-size: 16px;">
-                                    Notre Héritage
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-content" style="padding-left: 50px;">
-                            <div class="about-text">
-                                <p style="margin-bottom: 20px; line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
-                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Référence incontournable</span>
-                                    Depuis 1968, Chic Foulard s'est imposé comme une référence incontournable dans la confection de châles et foulards au Maroc. Forts de plusieurs décennies de savoir-faire, nous nous engageons à offrir une qualité irréprochable, mêlant tradition artisanale et innovation textile.
-                                </p>
-                                <p style="margin-bottom: 20px; line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
-                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Capacité de production</span>
-                                    Notre usine moderne, équipée pour répondre aux exigences du marché, permet une production pouvant atteindre jusqu'à 50 000 pièces par jour. Nous fabriquons tous types de châles et foulards — unis, imprimés, brodés ou personnalisés — en mettant un point d'honneur à respecter les standards les plus élevés.
-                                </p>
-                                <p style="line-height: 1.9; color: #333; font-size: 16px; position: relative; padding-left: 20px; border-left: 3px solid #840444;">
-                                    <span style="font-weight: 600; color: #840444; font-size: 18px; display: block; margin-bottom: 10px;">Présence nationale</span>
-                                    Grâce à un réseau de distribution solide, nous sommes présents dans les principales villes du Royaume, avec des points de vente partout au Maroc. Nos modèles, issus directement de notre usine, sont conçus pour répondre aux tendances actuelles tout en s'adaptant aux besoins spécifiques de nos clients.
-                                </p>
                             </div>
                             
+                            <!-- Capacité de production -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Notre vision : excellence et capacité de production
+                                    </button>
+                                </h3>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                                    <div class="accordion-body">
+                                        Notre usine moderne, équipée pour répondre aux exigences du marché, permet une production pouvant atteindre jusqu'à 50 000 pièces par jour. Nous fabriquons tous types de châles et foulards — unis, imprimés, brodés ou personnalisés — en mettant un point d'honneur à respecter les standards les plus élevés.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Présence nationale -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Nos valeurs : présence nationale et qualité au service de nos clients
+                                    </button>
+                                </h3>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                                    <div class="accordion-body">
+                                        Grâce à un réseau de distribution solide, nous sommes présents dans les principales villes du Royaume, avec des points de vente partout au Maroc. Nos modèles, issus directement de notre usine, sont conçus pour répondre aux tendances actuelles tout en s'adaptant aux besoins spécifiques de nos clients.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            
+            <!-- Image de droite -->
+            <div class="col-lg-6 col-md-12">
+                <div class="image-container">
+                    <img src="img/product/7.jpg" alt="Artisan ChicFoulard au travail" class="main-image">
+                    <div class="heritage-badge" id="about">
+                        Notre Héritage
+                    </div>
+                    <div class="year-badge">
+                        DEPUIS<br>1968
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         
          <section class="client-area home-2 stripe-parallax-bg" data-parallax-speed="0.5">
             <div class="client-bg">
@@ -744,7 +779,7 @@
                 </div>
                 <div class="features-curosel2 indicator-style2 home-2 owl-carousel">
                     <div class="tb-product-item-inner tb2 pct-last">
-                        <img alt="" src="img/product/1 - Copie.jpg">
+                        <img alt="" src="img/product/1 - Copie - Copie.jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -767,7 +802,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale two">Sale!</span> --}}
-                        <img alt="" src="img/product/9 - Copie.jpg">
+                        <img alt="" src="img/product/5 - Copie (3).jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -790,7 +825,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale">Sale!</span> --}}
-                        <img alt="" src="img/product/4.jpg">
+                        <img alt="" src="img/product/4 - Copie (3).jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -812,7 +847,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale">Sale!</span> --}}
-                        <img alt="" src="img/product/9.jpg">
+                        <img alt="" src="img/product/8 - Copie.jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -833,7 +868,7 @@
                         </div>
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
-                        <img alt="" src="img/product/5.jpg">
+                        <img alt="" src="img/product/9 - Copie.jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -855,7 +890,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale two">Sale!</span> --}}
-                        <img alt="" src="img/product/8.jpg">
+                        <img alt="" src="img/product/9 - Copie (2).jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -878,7 +913,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale">Sale!</span> --}}
-                        <img alt="" src="img/product/4.jpg">
+                        <img alt="" src="img/product/4 - Copie (4).jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -954,7 +989,7 @@
                     </div>
                     <div class="tb-product-item-inner tb2 pct-last">
                         {{-- <span class="onsale">Sale!</span> --}}
-                        <img alt="" src="img/product/7.jpg">
+                        <img alt="" src="img/product/10 - Copie.jpg">
                         {{-- <a class="la-icon" href="#productModal" title="Quick View" data-bs-toggle="modal"><i class="fa fa-eye"></i></a> --}}
                         <div class="tb-content">
                             <div class="tb-it">
@@ -1166,7 +1201,7 @@
             </div>
             
         </section>
-          <div class="icon-slider-area">
+        {{-- <div class="icon-slider-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -1189,7 +1224,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
 

@@ -46,6 +46,7 @@
         <link rel="stylesheet" href="{{ asset('css/temoignages.css') }}">                <link rel="stylesheet" href="{{ asset('css/notreHestoire.css') }}">
         <!-- Footer styles -->
         <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+        
 
         <!-- modernizr css -->
         <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>

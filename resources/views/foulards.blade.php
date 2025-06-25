@@ -221,6 +221,26 @@
     .quick-view-btn:hover:before {
         width: 80%;
     }
+    @media (max-width: 450px) {
+    .hero-content h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .hero-content p.lead {
+        font-size: 18px !important;
+    }
+    .product-image img {
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  .product-image {
+    height: auto !important;
+  }
+   
+}
+
+   
 </style>
 
 <section class="hero-banner" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('img/product/DSCF1045.jpg') no-repeat center center/cover; height: 650px; display: flex; align-items: center; position: relative; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.3);">
@@ -230,13 +250,13 @@
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
                 <div class="hero-content" style="transform-style: preserve-3d; perspective: 1000px;">
-                    <span style="color: #fff; font-weight: 600; font-size: 18px; text-transform: uppercase; letter-spacing: 10px; display: block; margin-bottom: 25px; animation: fadeInDown 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative;">
+                    <span style="color: #fff; font-weight: 600; font-size: 18px; text-transform: uppercase; letter-spacing: 10px; display: block; margin-bottom: 25px; position: relative;">
                         COLLECTION EXCLUSIVE
                         <span style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 60px; height: 2px; background: #fff;"></span>
                     </span>
-                    <h1 class="display-2 text-white fw-bold mb-4" style="text-transform: uppercase; letter-spacing: 5px; text-shadow: 2px 2px 8px rgba(0,0,0,0.6), 0 0 30px rgba(132, 4, 68, 0.4); animation: fadeInUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94); font-size: 4.5rem;">Nos Foulards</h1>
-                    <p class="lead text-white mb-5" style="font-size: 24px; max-width: 700px; margin: 0 auto; text-shadow: 1px 1px 3px rgba(0,0,0,0.6); animation: fadeIn 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); line-height: 1.5;">Élégance et raffinement depuis <span style="color: #f0c1d7; font-style: italic; font-weight: 600;">1968</span></p>
-                    <a href="#collection" class="btn px-5 py-3" style="background-color: #840444; color: white; border-radius: 30px; font-weight: 600; letter-spacing: 2px; box-shadow: 0 5px 25px rgba(132, 4, 68, 0.5), 0 0 15px rgba(132, 4, 68, 0.3); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); animation: fadeInUp 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); position: relative; overflow: hidden;">
+                    <h1 class="display-2 text-white fw-bold mb-4" style="text-transform: uppercase; letter-spacing: 5px; text-shadow: 2px 2px 8px rgba(0,0,0,0.6), 0 0 30px rgba(132, 4, 68, 0.4); font-size: 4.5rem;">Nos Foulards</h1>
+                    <p class="lead text-white mb-5" style="font-size: 24px; max-width: 700px; margin: 0 auto; text-shadow: 1px 1px 3px rgba(0,0,0,0.6); line-height: 1.5;">Élégance et raffinement depuis <span style="color: #f0c1d7; font-style: italic; font-weight: 600;">1968</span></p>
+                    <a href="#collection" class="btn px-5 py-3" style="background-color: #840444; color: white; border-radius: 30px; font-weight: 600; letter-spacing: 2px; box-shadow: 0 5px 25px rgba(132, 4, 68, 0.5), 0 0 15px rgba(132, 4, 68, 0.3); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden;">
                         <span style="position: relative; z-index: 2;">DÉCOUVRIR</span>
                         <span style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: 0.5s; z-index: 1;" class="btn-shine"></span>
                     </a>

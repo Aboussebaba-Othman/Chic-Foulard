@@ -1151,7 +1151,7 @@
         padding-bottom: 0px;
     }    
     .f-fix.res {
-        border-bottom: 0px solid #ebebeb;0
+        border-bottom: 0px solid #ebebeb;
     }  
     .shop-area .li-item .tb-product-btn a, .single-product-area .li-item .tb-product-btn a {
         margin-left: 2px;
@@ -1261,8 +1261,9 @@
         right: 35px;
     }
     .home-2 .logo-2-wrap > a {
-        transform: translateY(-100%);
-        left: 15px;
+        /* transform: translateY(-100%);
+        left: 15px; */
+        display: none;
     }
     .home-2 .stick .logo-stiky {
         left: 15px;

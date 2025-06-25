@@ -120,7 +120,8 @@
                             </div> --}}
                             <div class="mobile-menu">
                         <nav id="dropdown">
-                            <ul class="main-menu">                                <li>
+                            <ul class="main-menu">                                
+                                <li>
                                     <a href="{{route('home')}}">Accueil</a>
                                     
                                 </li>
@@ -220,9 +221,11 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li> --}}                                <li><a href="{{route('home')}}#about">A propos</a></li>
+                                </li> --}}                                
+                                <li><a href="{{route('home')}}#about">A propos</a></li>
                                 <li>
-                                    <a href="#">Produits</a>                                    <ul>
+                                    <a href="#">Produits</a>                                    
+                                    <ul>
                                         <li>
                                             <a href="{{ route('shales') }}">Shales</a>
                                             <a href="{{ route('foulards') }}">Foulards</a>
@@ -245,9 +248,7 @@
                                         <a href="#" onclick="event.preventDefault(); this.closest('form').submit();">Déconnexion</a>
                                     </form>
                                 </li>
-                                @else
-                                <li><a href="{{ route('login') }}">Connexion</a></li>
-                                <li><a href="{{ route('register') }}">Inscription</a></li>
+                                
                                 @endauth
                             </ul>
                         </nav>

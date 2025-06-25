@@ -132,7 +132,7 @@ preview-2
 }
 .preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
   right: 16px;
-    font-size: 0;
+  font-size: 0;
 }
 .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before{
   background: #fff;
@@ -206,4 +206,24 @@ preview-2
 .preview-2 .nivo-controlNav a:hover, .preview-2 .nivo-controlNav a.active {
     background: #000;
     cursor: pointer;
+}
+
+@media (max-width: 450px) {
+	.preview-2 .nivo-directionNav a.nivo-prevNav:before{
+		display: none;
+	}
+	.preview-2 .nivo-directionNav a.nivo-nextNav:before{
+		display: none;
+	}
+	.home-2 .logo-2-wrap > a{
+		display: none;
+	}
+	.home-2 .logo-2-wrap > a{
+		display: none;
+	}
+	.nivo-caption{
+		top: -43px;
+		left: 56px;
+	}
+	
 }
